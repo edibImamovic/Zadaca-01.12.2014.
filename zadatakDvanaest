@@ -1,0 +1,18 @@
+/**
+ * 
+ * @author Edib Imamovic
+ *
+ */
+public class zadatakDvanaest {
+
+	public static void main(String[] args) {
+	
+		System.out.println("Unesite broj koji ce se konvertovat u binarni");
+		int unosBroja = TextIO.getInt();
+		String zabranjenaFunkcija= Integer.toBinaryString(unosBroja); //Funkcija koju nismo smjeli koristiti :)
+		
+		System.out.printf("Binarni broj je:%s", zabranjenaFunkcija);
+
+	}
+
+}
